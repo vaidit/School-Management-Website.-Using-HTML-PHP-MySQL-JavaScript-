@@ -24,3 +24,6 @@ Module Description –
   o Submit Message
   o View Profile
   o Edit Profile
+
+
+You can Run the project on xampp local server.
