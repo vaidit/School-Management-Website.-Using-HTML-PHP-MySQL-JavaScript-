@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/login.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+	<div class="modal">
+		<div class="left">
+			<form action="PHP/loginn.php" method="post">
+				<div class="f1">
+	    			<label for="uname"><b>Username</b></label>
+	    			<br>
+	    			<div class="usern">
+	    			<i class="fa fa-user" aria-hidden="true" style="padding-left: 10px;"></i>
+	    			<input type="text" placeholder="Enter Username" name="uname" required>
+    				</div>
+    			</div>
+    			<div class="f2">
+	    			<label for="psw"><b>Password</b></label>
+	    			<br>
+	    			<div class="pass">
+					<i class="fa fa-lock " aria-hidden="true" style="padding-left: 10px;"></i>
+	    			<input type="password" placeholder="Enter Password" name="password" required>
+	        		</div>
+	        		<p><a href="forgot.html">Forgot Password?</a></p>
+        		</div>
+    			<button type="submit" name="loginsub">Login</button>
+			</form>
+		</div>
+		<div class="right">
+			<picture>
+			  <source srcset="images/img1.jpg" media="(max-width: 800px)">
+ 			  <img src="images/smit2.1.png" alt="Image not available">
+			</picture>
+		</div>		
+	</div>
+</body>
+</html>

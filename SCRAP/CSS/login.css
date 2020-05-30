@@ -1,0 +1,48 @@
+* { margin: 0; padding: 0; }
+body{ background-color: red;
+  height: 100%; }
+html{
+  height: 100%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 25px;
+}
+form{ margin: 200px 150px; 
+  max-height: 100%;
+}
+
+.modal{
+  margin: 15% 20%;
+  overflow: hidden;
+}
+button {
+  background-color: #E85A4F;
+  color: blue;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.left{ 
+	width: 50%; 
+  max-height: 100%; 
+	float: left;
+}
+.right{ 
+	width: 50%; 
+	float: right;
+  max-height: 100%;  
+}
+.right img{
+  width: 85%;
+  float: right;
+  object-fit: contain;
+}

@@ -1,0 +1,743 @@
+*{
+	padding: 0;
+	margin: 0
+}
+html {
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.header2{
+  display: flex;
+  width: 100%;
+/*  padding: 2% 1%;
+*//*  background-color: #8E8D8A;
+*/  color: #D8C3A5;
+  position: sticky;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.welcome{
+/*  float: left;
+*/flex-grow: 1;
+padding: 1%;
+background-color:#8E8D8A;
+/*flex-basis: 100%;
+*/}
+
+.marquee{
+  /*flex: 1;*/
+  padding: 1%;
+  flex-grow: 10;
+ flex-direction: row;
+ /*flex-basis: 1500%;*/
+ overflow: hidden;
+  padding: 1% 0 1% 0;
+background-color:#8E8D8A;
+border-left: 1px solid #D8C3A5;
+
+}
+
+
+.linkhead{
+  padding: 1%;
+  align-self:flex-end;
+  flex-grow: 1;
+  width: 98%;
+  color: #8E8D8A;
+  background-color: #EAE7DC;
+/*  margin-top: -0.5%;
+*/  /*position: fixed;*/
+}
+.linkhead a{
+  color: #e85a4f;
+}
+
+.mainarea{
+  	display: flex;
+  	flex-wrap: wrap;
+    overflow-y:  scroll;
+    scroll-behavior: smooth;
+    padding: 10% auto 0 5%;
+    height: 60%;
+    width: 95%;
+    padding-left: 5%;
+    justify-content: space-around;
+/*    background-color: white;
+*/
+
+
+}
+
+
+.tile{
+  	margin: 10% 15%;
+  	display: flex;
+  	flex-direction: column;
+  	overflow: hidden;
+    width: 70%;
+/*    background-color: white;
+*//*    border-radius: 50%;
+*/
+  }
+.icon a{
+/*  overflow: hidden;
+*/  color: black;
+}
+
+
+.image{
+/*	max-width: 100%;
+*/height: 50%;
+	width: 60%;
+  flex-direction: column;
+/*  border-radius: 50%;
+*//*  filter: drop-shadow(0px 5px 20px rgba(0,0,0,0.65));
+*/
+}
+
+
+.image:hover{
+  border-radius:50%;
+  filter: drop-shadow( 0 0  .40rem rgba(0,0,0,0.55));
+ /*box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.65);*/
+}
+.option2,.option4,.option5,.option6{
+/*	margin-top: 1%;
+*/  margin-left: 9%;
+  width:95%;
+  text-align: left;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+.option4{
+  margin-left: 11%;
+}
+.option1{
+/*  margin-top: 2%;
+*/  width:95%;
+  margin-left: 20%;
+  font-size: 1.2rem;
+  text-align: left;
+  flex-direction: column;
+}
+.option3{
+/*  margin-top: 2%;
+*/  width:95%;
+  margin-left: 21%;
+  font-size: 1.2rem;
+  text-align: left;
+   flex-direction: column;
+
+}
+.option7,.option8,.option9{
+  width: 95%;
+  flex-direction: column;
+  font-size: 1.2rem;
+
+}
+.mainbod{
+	padding: 2%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 51%;
+}
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table-header{
+  margin-bottom: 2%;
+  color: #e98074;
+  /*font-size:110%;*/
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.footer{
+  background: #8E8D8A;
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  bottom:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer p{
+  color: #d8c3a5;
+
+}
+.Info-1{
+  flex: 1;
+  flex-basis: 30%;
+  margin-top: 3%;
+  overflow: hidden;
+
+}
+.Info-2{
+  flex: 1;
+    flex-basis: 30%;
+    margin-top: 3%;
+  overflow: hidden;
+}
+.Info-3{
+  flex: 1;
+  flex-basis: 30%;
+  margin-top: 3%;
+  overflow: hidden;
+}
+.Info-4{
+  flex: 1;
+    flex-basis: 30%;
+    margin-top: 3%;
+      margin-bottom: 7%;
+        overflow: hidden;
+
+}
+.Info-5{
+  flex: 1;
+    flex-basis: 30%;
+ margin-top: 3%;
+      margin-bottom: 7%;
+        overflow: hidden;
+
+}
+.Info-6{
+  flex: 1;
+  flex-basis: 30%;
+ margin-top: 3%;
+      margin-bottom: 7%;
+        overflow: hidden;
+
+}
+a.Info-1{
+  width: 50%;
+    overflow: hidden;
+}
+.teacher{
+  margin:0% 0 0 10%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 55%;
+  padding-top: 2%;
+
+}
+.teacher-id h4{
+  color: #e98074;
+  width: 100%;
+  margin-bottom: 1%;
+  font-size:105%;
+}
+.teacher-id .input-text{
+  border-radius: 10px;
+  padding: 1%;
+  border-style: groove;
+
+}
+.teacher-id .input-text:focus{
+  outline: none;
+}
+.btn-submit{
+  padding: 1%;
+/*  margin-left: 3%;
+*/  border-radius: 10px;
+  border-style:none;
+  background:#e98074;
+  color:white;
+  margin-top: 1%;
+  margin-bottom: 2%;
+
+}
+.btn-submit:hover{
+  color:white;
+  cursor: pointer;
+  box-shadow: 0 0 0.34rem rgba(1,1,1,0.4);
+}
+.btn-back{
+  padding: 1%;
+
+  border-radius: 10px;
+  border-style:none;
+  background:#8E8D8A;
+  color:white;
+/*  margin-left: 10%;
+*/
+    margin-bottom: 2%;
+}
+.btn-back a{
+  color: white;
+}
+.btn-back:hover{
+   color:white;
+  cursor: pointer;
+  box-shadow: 0 0 0.34rem rgba(1,1,1,0.4);
+
+}
+.input-text1{
+  border-radius: 10px;
+  padding: 1%;
+  border-style: groove;
+  margin-bottom: 1%;
+}
+.btn-backB{
+  padding: 1%;
+  border-radius: 10px;
+  border-style:none;
+  background:#8E8D8A;
+  color:white;
+  margin-top: 1%;
+  margin-bottom: 2%;
+/*  margin-left: 10%;
+*/}
+.btn-backB a{
+  color: white;
+}
+.btn-backB:hover{
+   color:white;
+  cursor: pointer;
+  box-shadow: 0 0 0.34rem rgba(1,1,1,0.4);
+
+}
+.btn-backB:focus{
+  outline: none;
+}
+.btn-submit1{
+  padding: 1%;
+  border-radius: 10px;
+  border-style:none;
+  background:#e98074;
+  color:white;
+
+}
+.btn-submitM{
+  padding: 1%;
+  border-radius: 10px;
+  border-style:none;
+  background:#e98074;
+  color:white;
+}
+.btn-submitM:hover{
+  color:white;
+  cursor: pointer;
+  box-shadow: 0 0 0.34rem rgba(1,1,1,0.4);
+}
+.btn-submit1:hover{
+  color:white;
+  cursor: pointer;
+  box-shadow: 0 0 0.34rem rgba(1,1,1,0.4);
+}
+.btn-backM{
+  padding: 1%;
+  border-radius: 10px;
+  border-style:none;
+  background:#8E8D8A;
+  color:white;
+
+}
+.btn-backM:hover{
+   color:white;
+  cursor: pointer;
+  box-shadow: 0 0 0.34rem rgba(1,1,1,0.4);
+
+}
+.buttons{
+  display: inline-block;
+}
+
+
+
+/* ---------------LESS THAN 500 PX-------------------
+   --------------------------------------------------
+   --------------------------------------------------
+   --------------------------------------------------
+   --------------------------------------------------  */
+
+@media screen and (max-width:500px){
+
+  .header2{
+    height: 10%;
+
+  }
+
+
+ .mainarea{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y:  scroll;
+    scroll-behavior: smooth;
+    padding: 10% auto 0 5%;
+    flex-direction: column;
+    height: 60%;
+    width: 95%;
+    padding-left: 5%;
+    justify-content: space-around;
+/*    background-color: white;
+*/
+
+
+  }
+
+
+.tile{
+      display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 70%;
+/*    background-color: white;
+*//*    border-radius: 50%;
+*/
+  }
+
+  .icon a{
+  /*  overflow: hidden;
+  */  color: black;
+  }
+
+  .image{
+  /*  max-width: 100%;
+  */height: 50%;
+    width: 60%;
+    flex-direction: column;
+  /*  border-radius: 50%;
+  *//*  filter: drop-shadow(0px 5px 20px rgba(0,0,0,0.65));
+  */
+  }
+
+
+  .image:hover{
+      border-radius:50%;
+          filter: drop-shadow( 0 0  .40rem rgba(0,0,0,0.55));
+   /*box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.65);*/
+  }
+  .option2,.option4,.option5,.option6{
+  /*  margin-top: 1%;
+
+  */margin-left: 0%;
+    margin-right: 10%;
+    width:95%;
+    text-align: left;
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+  .option4{
+    margin-left: 5%;
+  }
+  .option1{
+  /*  margin-top: 2%;
+  */  width:95%;
+    margin-left: 15%;
+    font-size: 1.2rem;
+    text-align: left;
+    flex-direction: column;
+  }
+  .option3{
+  /*  margin-top: 2%;
+  */  width:95%;
+    margin-left: 18%;
+    font-size: 1.2rem;
+    text-align: left;
+    flex-direction: column;
+  }
+   .footer{
+    background: #8E8D8A;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer p{
+    color: #d8c3a5;
+
+  }
+  .Info-1{
+    margin: 0 0 0 20%;
+    width: 60%;
+    flex: 1;
+    flex-basis: 30%;
+    margin-top: 3%;
+    overflow: hidden;
+
+  }
+  .Info-2{
+        margin: 0 0 0 20%;
+
+        width: 60%;
+
+    flex: 1;
+      flex-basis: 30%;
+      margin-top: 3%;
+    overflow: hidden;
+  }
+  .Info-3{
+        margin: 0 0 0 12%;
+
+        width: 60%;
+
+    flex: 1;
+    flex-basis: 30%;
+    margin-top: 3%;
+    overflow: hidden;
+  }
+
+  .Info-4{
+    margin: 0 0 0 12%;
+    width: 60%;
+    flex: 1;
+    flex-basis: 30%;
+    margin-top: 3%;
+  /*  margin-bottom: 7%;*/
+    overflow: hidden;
+
+  }
+
+  .Info-5{
+  margin: 0 0 0 12%;
+   width: 60%;
+   flex: 1;
+   flex-basis: 30%;
+   margin-top: 3%;
+/*   margin-bottom: 7%;
+*/   overflow: hidden;
+  }
+  .Info-6{
+        margin: 0 0% 0 12%;
+
+        width: 60%;
+
+    flex: 1;
+    flex-basis: 30%;
+    margin-top: 3%;
+/*    margin-bottom: 7%;
+*/    overflow: hidden;
+
+  }
+
+
+
+  a.Info-1{
+    width: 50%;
+      overflow: hidden;
+
+  }
+
+textarea{
+width: 80%;
+}
+}
+
+/* ---------------LESS THAN 375 PX-------------------
+   --------------------------------------------------
+   --------------------------------------------------
+   --------------------------------------------------
+   --------------------------------------------------  */
+
+
+@media screen and (max-width:443px){
+
+  .header2{
+    height: 10%;
+
+  }
+  .marquee{
+    border:none;
+  }
+
+ .mainarea{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y:  scroll;
+    scroll-behavior: smooth;
+    padding: 10% auto 0 5%;
+    flex-direction: column;
+    height: 60%;
+    width: 95%;
+    padding-left: 5%;
+    justify-content: space-around;
+/*    background-color: white;
+*/
+
+
+  }
+
+
+.tile{
+      display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 70%;
+/*    background-color: white;
+*//*    border-radius: 50%;
+*/
+  }
+
+  .icon a{
+  /*  overflow: hidden;
+  */  color: black;
+  }
+
+  .image{
+  /*  max-width: 100%;
+  */height: 50%;
+    width: 60%;
+    flex-direction: column;
+    margin-left: 15%;
+  /*  border-radius: 50%;
+  *//*  filter: drop-shadow(0px 5px 20px rgba(0,0,0,0.65));
+  */
+  }
+
+
+  .image:hover{
+      border-radius:50%;
+          filter: drop-shadow( 0 0  .40rem rgba(0,0,0,0.55));
+   /*box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.65);*/
+  }
+  .option2,.option5,.option6{
+  /*  margin-top: 1%;
+
+  */ padding-left: -5%;
+    margin-left: 0%;
+    margin-right: 10%;
+    width:95%;
+    text-align: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+
+
+  .option4{
+    width:95%;
+    text-align: left;
+    flex-direction: column;
+    font-size: 1.2rem;
+    margin-left: 10%;
+  }
+  .option1{
+  /*  margin-top: 2%;
+  */  width:95%;
+    margin-left: 25%;
+    font-size: 1.2rem;
+    text-align: left;
+    flex-direction: column;
+  }
+  .option3{
+  /*  margin-top: 2%;
+  */  width:95%;
+    margin-left: 30%;
+    font-size: 1.2rem;
+    text-align: left;
+    flex-direction: column;
+  }
+   .footer{
+    background: #8E8D8A;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer p{
+    color: #d8c3a5;
+
+  }
+  .Info-1{
+    margin: 0 0 0 15%;
+    width: 70%;
+    flex: 1;
+    flex-basis: 30%;
+    margin-top: 9%;
+    overflow: hidden;
+
+  }
+  .Info-2{
+        margin: 0 0 0 15%;
+
+        width: 70%;
+
+    flex: 1;
+      flex-basis: 30%;
+      margin-top: 9%;
+    overflow: hidden;
+  }
+  .Info-3{
+        margin: 0 0 0 12%;
+
+        width: 70%;
+
+    flex: 1;
+    flex-basis: 30%;
+    margin-top: 9%;
+    overflow: hidden;
+  }
+
+  .Info-4{
+    margin: 0 0 0 12%;
+    width: 70%;
+    flex: 1;
+    flex-basis: 30%;
+    margin-top: 9%;
+  /*  margin-bottom: 7%;*/
+    overflow: hidden;
+
+  }
+
+  .Info-5{
+  margin: 0 0 0 6%;
+   width: 70%;
+   flex: 1;
+   flex-basis: 30%;
+   margin-top: 9%;
+/*   margin-bottom: 7%;
+*/   overflow: hidden;
+  }
+  .Info-6{
+        margin: 0 0% 0 6%;
+        width: 70%;
+
+    flex: 1;
+    flex-basis: 30%;
+    margin-top: 9%;
+/*    margin-bottom: 7%;
+*/    overflow: hidden;
+
+  }
+
+
+
+  a.Info-1{
+    width: 50%;
+      overflow: hidden;
+
+  }
+
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body{
+  background-image: url("../images/smit3.png");
+  background-size: cover;
+  height:100%;
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+ }
+
+input[type=text], input[type=password] {
+  width: 80%;
+  margin: 6% 2%;
+  border: none;
+  background: transparent;
+  display: inline-block;
+}
+
+::placeholder{
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+input[type=text]:focus, input[type=password]:focus, button:focus{
+  outline: none;
+}
+
+.usern,.pass{
+  margin: 2px;
+  border: 1px solid rgba(1,1,1,0.4);
+  border-radius: 30px;
+  background: rgba(255,255,255,0.4);
+}
+
+form{
+  overflow: hidden;
+  padding: 20% 10%;
+}
+.f1{
+  margin: 5% 0;
+}
+.f2 p{
+  margin-top: 1%;
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
+  font-size: 80%;
+}
+.f2 p a:hover{
+  text-decoration: underline;
+}
+button {
+  background-color: #E85A4F;
+  color: white;
+  border: 1px solid rgba(1,1,1,0.4);
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 100%;
+  margin: 15% 0;
+/*  margin: 50px 2px 0 0;
+*//*  float: right;
+  padding: 20px 170px;*/
+  padding: 6% 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+label{
+  margin-bottom: 5px;
+  margin-left: 22px;
+  letter-spacing: 2px;
+  color: rgba(1,1,1,0.6);
+}
+
+.modal {
+  margin: 5% 15%;
+  overflow: hidden;
+  background-color: white;
+  height: 80%;
+  width: 70%;
+  box-shadow: 3px 3px 25px 0px rgba(0,0,0,0.4);
+  border-radius: 10px;
+/*  background-image: url("../images/splash.png");
+  background-size: cover;
+*/  display: flex;
+  flex-flow: wrap;
+}
+
+#error{
+  flex: 1 100%;
+}
+
+.left,.right{
+  flex: 1;
+/*  overflow: hidden;
+*/}
+.right img{
+/*  margin-top: 10%;
+*/  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0.1rem 0.40rem rgba(0,0,0,0.7));
+}
+@media screen and (max-width: 800px) {
+  .modal{
+    display: flex;
+    margin: 5% 15% 0 15%;
+    height: auto;
+  }
+  .left{
+  flex-basis: 100%;
+  }
+  .right{
+    display: none;
+  }
+  form{
+  overflow: hidden;
+  padding: 20% 10%;
+  }
+
+}
+@media screen and (min-height: 800px) {
+ .modal{
+    display: flex;
+    margin: 5% 15% 0 15%;
+    height: auto;
+  }
+  .left,.right{
+    overflow: hidden;
+    flex: 1;
+  }
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/login.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<style type="text/css">
+		/*.modal p{
+			margin: 10% 0 0 5%;
+		}*/
+		.modal{
+			flex-direction: column;
+		}
+		.e{
+			margin: auto;
+		}
+		form{
+			padding: 0;
+		}
+		.f{
+			padding: 10% 0 5% 25%;
+		}
+		input[type=Email]{
+			padding: 2%;
+			border: 1px solid rgba(1,1,1,0.4);
+  border-radius: 30px;  
+  background: rgba(255,255,255,0.4);
+		}
+		input[type=Email]:focus,button:focus{
+			outline: none;
+			}
+		button{
+			width: 25%;
+			margin: 2% 0 0 15%;
+			padding: 3% 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="modal">
+		<div class="e">
+		<p>Please Enter your Email ID to send Password Change Link</p>
+		<div class="f">
+		<form>
+				<input type="Email" name="email" placeholder="Enter Email"required>
+				<br>
+				<button formaction="login.html">Submit</button>
+			</form>
+		</div>
+		</div>
+	</div>
+</body>
+</html>
